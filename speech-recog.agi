@@ -119,7 +119,7 @@ my $flac;
 my $speex;
 my $results    = 1;
 my $grammar    = "builtin:dictation"; #"builtin:search";
-my $beep       = "BEEP";
+my $beep       = 1; # -1 NO BEEP
 my $comp_level = -8;
 my $ua_timeout = 10;
 my $tmpdir     = "/tmp";
